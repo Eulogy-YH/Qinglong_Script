@@ -781,9 +781,9 @@ def main():
             wait_with_countdown(delay_seconds, "阿里云盘签到")
     
     # 获取refresh_token配置
-    aliyun_tokens = '8e71a545f7e349d19293a4a6319d533e'
-    if not aliyun_tokens:
-        error_msg = """❌ 未找到ALIYUN_REFRESH_TOKEN环境变量
+    aliyun_tokens = ''
+    if aliyun_tokens = '':
+        error_msg = """❌ ALIYUN_REFRESH_TOKEN为空
 
 🔧 获取refresh_token的方法:
 1. 打开阿里云盘网页版: https://www.aliyundrive.com/
