@@ -4,6 +4,7 @@
 cron: 0 9 * * *
 签到与答题成功一个即算成功
 需填写Cookie
+只有 SVIP 能签到
 """
 
 import os
