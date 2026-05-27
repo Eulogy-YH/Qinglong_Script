@@ -26,7 +26,7 @@ except ImportError:
 
 # 配置项
 # 多个账号用 \n 分割Cookie
-BAIDU_COOKIE = r''
+BAIDU_COOKIE = ''
 # print(BAIDU_COOKIE)
 max_random_delay = int(os.getenv("MAX_RANDOM_DELAY", "3600"))
 random_signin = os.getenv("RANDOM_SIGNIN", "true").lower() == "true"
